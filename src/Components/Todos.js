@@ -24,8 +24,8 @@ const Todos = () => {
     <div className="flex justify-center items-center">
       <div className="flex flex-col gap-2">
         <TodoForm />
-        {todos.map((todo) => (
-          <Todo key={todo.id} todo={todo} />
+        {todos.map((todoo) => (
+          <Todo key={todoo.id} todoo={todoo} />
         ))}
       </div>
     </div>
